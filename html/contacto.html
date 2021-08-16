@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-info bg-gradient">
+            <div class="container-xl">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <h1 class="titulo me-3 animacion">Propiedades Lezcano</h1>
+                <div class="collapse navbar-collapse justify-content-md-center" id="navbarTogglerDemo03">
+                <ul class="navbar-nav nav-pills navpillcolor me-auto mb-2 mb-lg-0 navcolor">
+                    <li class="nav-item">
+                        <a class="nav-link"  href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="propiedades.html">Propiedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="opiniones.html">Opiniones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-md">
+        <div class="shadow rounded-3 bg-gradient m-3 p-1 animacion">
+        <h2 class="contacto">Contacto</h2>
+        <form class= "formulario" action="#" method="GET">
+            <p>Incribite para mandar <strong>tus propias recetas!</strong></p>
+            
+            <label for="nombre">Nombre</label>
+            <input name="nombre" type="text">
+            <br>
+            <label for="apellido">Apellido</label>
+            <input name="apellido" type="text">
+            <br>
+            <label for="mail_de_usuario">Email</label>
+            <input type="email" name="mail_de_usuario" >
+            <br>
+            <select name="estadoCivil" class="formm">
+                <option value="" selected="">Seleccioná un estado civil</option>
+                <option value="">Soltero/a</option>
+                <option value="">Casado/a</option>
+                <option value="">Divorciado/a</option>
+                <option value="">Viudo/a</option>
+                <option value="">Vínculo de hecho</option>
+                <option value="">Separado/a</option>
+            </select>
+            <br>
+            <label>¿Desea recibir el Newsletter?</label>
+            <input type="checkbox">
+            <br>
+            <textarea name="Comentarios" cols="40" rows="10"></textarea>
+            <br>
+            <input type="reset" value="Limpiar Formulario">
+            <input type="submit" value="Enviar Formulario">
+        </form>
+    </div>
+    </div>
+    </main>
+    <footer class="footer mt-auto py-3 firma">
+        <div class="container">
+        <span class="text">@agusdelusion</span>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
