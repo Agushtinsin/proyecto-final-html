@@ -1,0 +1,61 @@
+:root {
+    --main-radius: 20px;
+    --main-padding: 5px;
+}
+
+body {
+    background: lightblue;
+    height: 100%;
+    margin: 0
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-family:Lato;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Lato';
+    margin:30px ;
+}
+
+.texto {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.text-lightblue {
+    color: rgb(4, 122, 131);
+}
+
+.textoParrafo {
+    font-size: 20px;
+    line-height: 100%;
+    margin: 1em 0.3em;
+    justify-content: center;
+}
+
+.micarousel {
+    position: relative;
+    padding: 1rem;
+    margin: 1rem -.75rem 0;
+    display: block;
+}
+
+.animacion{-webkit-animation:animacion .7s cubic-bezier(.215,.61,.355,1.000) both;animation:animacion .7s cubic-bezier(.215,.61,.355,1.000) both}
+
+@-webkit-keyframes animacion{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes animacion{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+.animacion2{-webkit-animation:animacion2 .4s cubic-bezier(.39,.575,.565,1.000) both;animation:animacion2 .4s cubic-bezier(.39,.575,.565,1.000) both}
+
+
+
+@-webkit-keyframes animacion2{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4)}100%{-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes animacion2{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4)}100%{-webkit-transform:scaleX(1);transform:scaleX(1)}}
+@media only screen and (max-width: 600px) {
+}

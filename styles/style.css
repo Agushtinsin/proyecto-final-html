@@ -1,114 +1,117 @@
 :root {
-    --main-radius: 20px;
-    --main-padding: 5px;
-}
+  --main-radius: 20px;
+  --main-padding: 5px; }
 
 body {
-    background: lightblue;
-    height: 100%;
-    margin: 0
-}
+  background: lightblue;
+  height: 100%;
+  margin: 0; }
 
 li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    width: fit-content;
-    padding: 16px 16px;
-    text-decoration: none;
-    font-family:Lato;
-}
+  display: inline-block;
+  color: white;
+  text-align: center;
+  width: fit-content;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-family: Lato; }
 
 h2 {
-    text-align: center;
-    font-family: 'Lato';
-    margin:30px ;
-}
-.navBar {
-    float: left;
-    width: fit-content;
-}
-
-.titulo {
-    color: white;
-    font-family: 'Cookie';
-    text-align: center;
-    text-decoration: none;
-    font-size: 2em;
-}
-
-.titulo:hover {
-    color:rgb(0, 0, 0);
-}
-
-.activo {
-    background-color:rgb(0, 183, 196);
-}
-
-.contacto {
-    text-align: center;
-}
-
-.formulario {
-    text-align: center;
-}
+  text-align: center;
+  font-family: 'Lato';
+  margin: 30px; }
 
 .texto {
-    font-size: 30px;
-    line-height: 40px;
-}
-
-.titulo1 {
-    color: lightblue;
-}
-
-
-.separador {
-    height: 30px;
-}
-
-.bg-info {
-    background-color: rgb(4, 122, 131) !important;
-}
-
-.btn-outline-success {
-    color: lightblue !important;
-    border-color: lightblue !important;
-}
-
-.micarousel {
-    position: relative;
-    padding: 1rem;
-    margin: 1rem -.75rem 0;
-    display: block;
-}
-
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    background-color: lightblue !important;
-    margin-top: 0px;
-}
+  font-size: 30px;
+  line-height: 40px; }
 
 .text-lightblue {
-    color: rgb(4, 122, 131);
-}
+  color: #047a83; }
 
 .textoParrafo {
-    font-size: 20px;
-    line-height: 100%;
-    margin: 1em 0.3em;
-    justify-content: center;
-}
+  font-size: 20px;
+  line-height: 100%;
+  margin: 1em 0.3em;
+  justify-content: center; }
 
+.micarousel {
+  position: relative;
+  padding: 1rem;
+  margin: 1rem -.75rem 0;
+  display: block; }
 
-.animacion{-webkit-animation:animacion .7s cubic-bezier(.215,.61,.355,1.000) both;animation:animacion .7s cubic-bezier(.215,.61,.355,1.000) both}
+.animacion {
+  -webkit-animation: animacion 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: animacion 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
 
-@-webkit-keyframes animacion{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes animacion{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+@-webkit-keyframes animacion {
+  0% {
+    letter-spacing: -.5em;
+    opacity: 0; }
+  40% {
+    opacity: .6; }
+  100% {
+    opacity: 1; } }
 
-.animacion2{-webkit-animation:animacion2 .4s cubic-bezier(.39,.575,.565,1.000) both;animation:animacion2 .4s cubic-bezier(.39,.575,.565,1.000) both}
+@keyframes animacion {
+  0% {
+    letter-spacing: -.5em;
+    opacity: 0; }
+  40% {
+    opacity: .6; }
+  100% {
+    opacity: 1; } }
 
+.animacion2 {
+  -webkit-animation: animacion2 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: animacion2 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
 
+@-webkit-keyframes animacion2 {
+  0% {
+    -webkit-transform: scaleX(0.4);
+    transform: scaleX(0.4); }
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); } }
 
-@-webkit-keyframes animacion2{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4)}100%{-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes animacion2{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4)}100%{-webkit-transform:scaleX(1);transform:scaleX(1)}}
-@media only screen and (max-width: 600px) {
-}
+@keyframes animacion2 {
+  0% {
+    -webkit-transform: scaleX(0.4);
+    transform: scaleX(0.4); }
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); } }
 
+.navBar {
+  float: left;
+  width: fit-content; }
+
+.titulo {
+  color: white;
+  font-family: 'Cookie';
+  text-align: center;
+  text-decoration: none;
+  font-size: 2em; }
+
+.titulo:hover {
+  color: black; }
+
+.activo {
+  background-color: #00b7c4; }
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background-color: lightblue !important;
+  margin-top: 0px; }
+
+.contacto {
+  text-align: center; }
+
+.formulario {
+  text-align: center; }
+
+.bg-info {
+  background-color: #047a83 !important; }
+
+.btn-outline-success {
+  color: lightblue !important;
+  border-color: lightblue !important; }

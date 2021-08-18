@@ -1,0 +1,25 @@
+.navBar {
+    float: left;
+    width: fit-content;
+}
+
+.titulo {
+    color: white;
+    font-family: 'Cookie';
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.titulo:hover {
+    color:rgb(0, 0, 0);
+}
+
+.activo {
+    background-color:rgb(0, 183, 196);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: lightblue !important;
+    margin-top: 0px;
+}
