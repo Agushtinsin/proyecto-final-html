@@ -40,6 +40,9 @@ h2 {
   margin: 1rem -.75rem 0;
   display: block; }
 
+.losmasvistos {
+  width: 98%; }
+
 .animacion {
   -webkit-animation: animacion 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   animation: animacion 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
