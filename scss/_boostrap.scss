@@ -1,8 +1,8 @@
 .bg-info {
-    background-color: rgb(4, 122, 131) !important;
+    background-color: $color-primario !important;
 }
 
 .btn-outline-success {
-    color: lightblue !important;
-    border-color: lightblue !important;
+    color: $color-secundario !important;
+    border-color: $color-secundario !important;
 }

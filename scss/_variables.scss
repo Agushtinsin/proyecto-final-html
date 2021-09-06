@@ -1,0 +1,16 @@
+$color-primario: rgb(0, 183, 196);
+$color-secundario: lightblue;
+$color-texto: white;
+$tipografia-general: 'Lato';
+$tipografia-alternativa: 'Cookie';
+
+@mixin fontsizes($size){
+    font-size: $size;
+}
+
+@each $propiedad in carrusel1,carrusel2,carrusel3{
+    .#{$propiedad}-img{
+        display: block;
+        width: 100%;
+    }
+}
